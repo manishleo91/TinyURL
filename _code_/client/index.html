@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URL Shortner</title>
+  </head>
+  <body>
+    <h1>URL Shortening App</h1>
+    <div>
+      <input id="urlInput" type="url" />
+      <input id="expiryDaysInput" type="number" min ="0" placeholder="Expiry days" />
+      <button id="urlButton" type="button">Shorten the URL</button>
+      <div id="tinylabel" >  </div>
+    </div>
+    <br/> <br/>
+    <div>
+      <input id="longUrlInput" type="url" />
+      <button id="longUrlButton" type="button">Get long URL</button>
+      <div id="longUrlLabel" />
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
